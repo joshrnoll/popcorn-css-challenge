@@ -3,3 +3,36 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+  background-color: #D4A76A;
+  /* display: flex;
+  flex-direction: column;
+  align-content: space-evenly; */
+}
+
+header {
+  background-color: #FFDBAA;
+  color: #553100;
+}
+
+button {
+  background-color: #805215;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  background-color: #FFFFFF;
+  width: 100%;
+  margin: 10px
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around
+}
