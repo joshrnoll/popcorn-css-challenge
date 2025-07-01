@@ -4,33 +4,51 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #D4A76A;
-  display: flex;
-  flex-direction: column;
-  align-content: space-evenly;
 }
 
 header {
   background-color: #FFDBAA;
   color: #553100;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  margin: 15px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  place-items: center
 }
 
 button {
   background-color: #805215;
   color: #FFFFFF;
   font-weight: bold;
+  margin: 15px
+
 }
 
 .box {
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
+  text-align: center;
   width: 100%;
-  margin: 10px
+  margin: 10px;
+  padding: 10px
 }
 
 .grid {
